@@ -1,0 +1,39 @@
+// LanguageSwitcher.scss
+
+// Define styling for the language switcher container
+.language-switcher {
+  display: flex;
+  align-items: center;
+}
+
+// Define styling for the language button
+.language-button {
+  background-color: #fff;
+  color: #333;
+  padding: 8px 16px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  margin-right: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+
+  // Add spacing between flag icon and text
+  .flag-icon {
+    margin-right: 8px;
+  }
+
+  // Add styles for the selected language button
+  &.selected {
+    background-color: #55198b; /* Set the background color for the selected button */
+    color: #fff; /* Set the text color for the selected button */
+    border: 1px solid #55198b; /* Set the border color for the selected button */
+  }
+}
+
+// Define styling for the flag icons
+.flag-icon {
+  margin-right: 8px;
+  width: 30px;
+  height: 20px; // Set the width and height for the flag icons
+}

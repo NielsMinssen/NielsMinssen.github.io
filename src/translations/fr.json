@@ -1,0 +1,194 @@
+{
+  "greeting": {
+    "username": "Niels Minssen",
+    "title": "Salut, moi c'est Niels",
+    "subTitle": "Ingénieur en informatique spécialisé en systèmes d'information et outils d'aide à la décision. Curieux et avide de connaissances, j'acquiers constamment de nouvelles compétences pour rester à jour."
+  },
+  "skillsSection": {
+    "title": "Mon travail",
+    "subTitle": "Data Scientist/Engineer avec la main sur ces outils",
+    "skills": [
+      "📊 Découvrir des insights à partir de données",
+      "🤖 Développer des modèles d'apprentissage automatique pour améliorer la prise de décision",
+      "💾 Construire et alimenter des bases de données tout en gérant des flux (pipelines) de données"
+    ]
+  },
+  "educationInfo": {
+    "display": true,
+    "schools": [
+      {
+        "subHeader": "École d'ingénieurs en informatique"
+      },
+      {
+        "subHeader": "CPGE - Classe préparatoire de deux ans pour les concours d'admission aux grandes écoles françaises"
+      }
+    ]
+  },
+  "techStack": {
+    "viewSkillBars": true,
+    "experience": [
+      { "Stack": "Python/R", "progressPercentage": "80%" },
+      { "Stack": "SQL", "progressPercentage": "90%" },
+      { "Stack": "Apprentissage automatique", "progressPercentage": "85%" },
+      { "Stack": "SGBD", "progressPercentage": "85%" }
+    ],
+    "displayCodersrank": false
+  },
+  "workExperiences": {
+    "display": true,
+    "experience": [
+      {
+        "role": "Data Scientist/Engineer",
+        "company": "Crédit Agricole",
+        "desc": "Contrat en Alternance au Crédit Agricole Centre France",
+        "date": "Septembre 2022 - Septembre 2023",
+        "descBullets": [
+          "Création de modèles d'apprentissage automatique pour détecter la propension des clients à acheter un produit. (Régression logistique, Bagging et xgboost)",
+          "Création d'une application R-shiny pour afficher dynamiquement les caractéristiques des clients"
+        ]
+      },
+      {
+        "role": "Data Analyst/Scientist",
+        "company": "Département de la Charente-Maritime",
+        "desc": "Stage de 5 mois",
+        "date": "Avril 2022 – Août 2022",
+        "descBullets": [
+          "Determiniation de règles d’associations pour mieux comprendre les caractéristiques des populations étudiées",
+          "Utilisation de méthodes comme le traitement automatique du langage naturel, l’apprentissage supervisé et la visualisation de données"
+        ]
+      }
+    ]
+  },
+  "bigProjects": {
+    "title": "Grands projets",
+    "subtitle": "QUELQUES STARTUPS ET ENTREPRISES QUE J'AI AIDÉ À CRÉER LEUR TECHNOLOGIE",
+    "projects": [
+      {
+        "image": "",
+        "projectName": "Saayahealth",
+        "projectDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "footerLink": [
+          {
+            "name": "Visiter le site"
+          }
+        ]
+      },
+      {
+        "image": "",
+        "projectName": "Nextu",
+        "projectDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "footerLink": [
+          {
+            "name": "Visiter le site"
+          }
+        ]
+      }
+    ],
+    "display": false
+  },
+  "achievementSection": {
+    "title": "Réalisations et certifications 🏆",
+    "subtitle": "Réalisations, certifications, lettres d'awards et choses sympas que j'ai accomplies !",
+    "achievementsCards": [
+      {
+        "title": "Finaliste de Google Code-In",
+        "subtitle": "Premier Pakistanais à être sélectionné en tant que finaliste de Google Code-In parmi 4000 étudiants de 77 pays différents.",
+        "image": "",
+        "imageAlt": "Logo de Google Code-In",
+        "footerLink": [
+          {
+            "name": "Certification",
+            "url": "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          },
+          {
+            "name": "Lettre d'award",
+            "url": "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+          },
+          {
+            "name": "Blog de Google Code-In",
+            "url": "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          }
+        ]
+      },
+      {
+        "title": "Google Assistant Action",
+        "subtitle": "Développé un assistant Google Action JavaScript Guru disponible sur 2 milliards d'appareils dans le monde.",
+        "image": "",
+        "imageAlt": "Logo Google Assistant Action",
+        "footerLink": [
+          {
+            "name": "Voir Google Assistant Action",
+            "url": "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          }
+        ]
+      },
+      {
+        "title": "Développeur d'applications Web PWA",
+        "subtitle": "Certification achevée de SMIT pour le développement d'applications Web PWA",
+        "imageAlt": "Logo PWA",
+        "footerLink": [
+          { "name": "Certification", "url": "" },
+          {
+            "name": "Projet final"
+          }
+        ]
+      }
+    ]
+  },
+  "blogSection": {
+    "title": "Articles",
+    "subtitle": "Passioné par les technologies intéressantes, j'aime écrire et partager aux autres ce que j'ai appris.",
+    "blogs": [
+      {
+        "url": "https://www.awinstall.com/sgbd-nosql-et-si-vous-sautiez-le-pas/",
+        "title": "SGBD NoSQL, et si vous sautiez le pas ?",
+        "description": "Contrairement aux systèmes basés sur le SQL (Structured Query Language), les bases de données NoSQL sont conçues pour traiter de grandes quantités de données non structurées et semi-structurées..."
+      },
+      {
+        "url": "https://www.awinstall.com/batch-processing-stream-processing-et-lambda-architecture-quelles-differences/",
+        "title": "Batch Processing, Stream Processing et Lambda Architecture, quelles différences ?",
+        "description": "Trois architectures dominent le paysage : Batch Processing, Stream Processing et Lambda Architecture. Chacune offre des avantages distincts et répond à des besoins spécifiques en matière de traitement des données..."
+      },
+      {
+        "url": "https://www.awinstall.com/apache-kafka-fonctionnement-de-cet-outil-de-traitement-de-flux-de-donnees/",
+        "title": "Apache Kafka : fonctionnement de cet outil de traitement de flux de données",
+        "description": "Apache Kafka est une plateforme de streaming d’événements distribuée open-source développée par la Apache Software Foundation..."
+      },
+      {
+        "url": "https://www.awinstall.com/web-scraping-avec-python/",
+        "title": "Web Scraping avec Python",
+        "description": "Il existe de nombreuses bibliothèques en Python pour le web scraping, mais les plus utilisées sont Beautiful Soup et Requests..."
+      }
+    ]
+  },
+  "talkSection": {
+    "title": "Conférences",
+    "subtitle": "J'AIME PARTAGER MES CONNAISSANCES LIMITÉES ET OBTENIR UN BADGE DE CONFÉRENCIER 😅",
+    "talks": [
+      {
+        "title": "Build Actions For Google Assistant",
+        "subtitle": "Codelab à GDG DevFest Karachi 2019"
+      }
+    ]
+  },
+  "podcastSection": {
+    "title": "Podcasts 🎙️",
+    "subtitle": "J'AIME PARLER DE MOI-MÊME ET DE LA TECHNOLOGIE"
+  },
+  "contactInfo": {
+    "title": "Contactez-moi ☎️",
+    "subtitle": "Vous voulez discuter d'un projet ou simplement dire bonjour ? Ma boîte de réception est ouverte à tous."
+  },
+  "skillProgress":{
+    "heading":"Compétences"
+  },
+  "header":{
+    "skills":"Compétences",
+    "openSource":"Open Source",
+    "workExperiences":"Experiences Professionelles",
+    "achievements":"Accomplissements",
+    "blogs":"Blogs",
+    "contactMe":"Contactez Moi",
+    "talks": "Conversations"
+  }
+}

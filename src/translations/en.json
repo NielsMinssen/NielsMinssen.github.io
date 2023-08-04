@@ -1,0 +1,184 @@
+{
+  "greeting": {
+    "username": "Niels Minssen",
+    "title": "Hi, I am Niels",
+    "subTitle": "Computer science engineer specialized in information system and decision support tools. Curious and eager to learn, I constantly gain new skills to stay up to date."
+  },
+  "skillsSection": {
+    "title": "What I do",
+    "subTitle": "Data Scientist/Engineer with a hand on this tool palette",
+    "skills": [
+      "📊 Discover insights from Data",
+      "🤖 Develop machine learning models to better the decision making thanks to accurate predictions",
+      "💾 Create and fill Databases as well as managing Data pipelines"
+    ]},
+  "educationInfo": {
+    "display": true,
+    "schools": [
+      {
+        "subHeader": "College of Engineering in Computer Science"
+      },
+      {
+        "subHeader": "CPGE - Two-year preparatory course for the competitive examination admmission to a French grande ecole"
+      }
+    ]
+  },
+  "workExperiences": {
+    "display": true,
+    "experience": [
+      {
+        "role": "Data Scientist/Engineer",
+        "company": "Credit Agricole",
+        "desc": "work-study program at Credit Agricole (French Bank)",
+        "date": "September 2022 - September 2023",
+        "descBullets": [
+          "Creating machine learning models to detect client propensity to buy a product. (Logistic regression Bagging and xgboost)",
+          "Creation of a R-shiny Application to display dynamically clients characteristics"
+        ]
+      },
+      {
+        "role": "Data Analyst/Scientist",
+        "company": "French Council : Département de la Charente-Maritime",
+        "desc": "5 month computer science engineering internship",
+        "date": "April 2022 – August 2022",
+        "descBullets": [
+          "Implemented data enhancement methods such as association rules and mapping to understand population characteristics in child placement and preoccupying reports",
+          "Using predictive models, natural language processing, and visualization methods to analyze and highlight individual histories in placements (python and R)"
+        ]
+      }
+    ]
+  },
+  "bigProjects": {
+    "title": "Big Projects",
+    "subtitle": "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+    "projects": [
+      {
+        "image": "",
+        "projectName": "Saayahealth",
+        "projectDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "footerLink": [
+          {
+            "name": "Visit Website"
+          }
+        ]
+      },
+      {
+        "image": "",
+        "projectName": "Nextu",
+        "projectDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "footerLink": [
+          {
+            "name": "Visit Website"
+          }
+        ]
+      }
+    ],
+    "display": false
+  },
+  "achievementSection": {
+    "title": "Achievements And Certifications 🏆",
+    "subtitle": "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "achievementsCards": [
+      {
+        "title": "Google Code-In Finalist",
+        "subtitle": "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+        "image": "",
+        "imageAlt": "Google Code-In Logo",
+        "footerLink": [
+          {
+            "name": "Certification",
+            "url": "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          },
+          {
+            "name": "Award Letter",
+            "url": "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+          },
+          {
+            "name": "Google Code-in Blog",
+            "url": "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          }
+        ]
+      },
+      {
+        "title": "Google Assistant Action",
+        "subtitle": "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+        "image": "",
+        "imageAlt": "Google Assistant Action Logo",
+        "footerLink": [
+          {
+            "name": "View Google Assistant Action",
+            "url": "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          }
+        ]
+      },
+      {
+        "title": "PWA Web App Developer",
+        "subtitle": "Completed Certifcation from SMIT for PWA Web App Development",
+        "imageAlt": "PWA Logo",
+        "footerLink": [
+          { "name": "Certification", "url": "" },
+          {
+            "name": "Final Project"
+          }
+        ]
+      }
+    ]
+  },
+  "blogSection": {
+    "title": "Blogs",
+    "subtitle": "With Love for interesting technologies, I love to write and teach others what I have learnt. (in French 🇫🇷)",
+    "blogs": [
+      {
+        "url": "https://www.awinstall.com/sgbd-nosql-et-si-vous-sautiez-le-pas/",
+        "title": "SGBD NoSQL, et si vous sautiez le pas ?",
+        "description": "Contrairement aux systèmes basés sur le SQL (Structured Query Language), les bases de données NoSQL sont conçues pour traiter de grandes quantités de données non structurées et semi-structurées..."
+      },
+      {
+        "url": "https://www.awinstall.com/batch-processing-stream-processing-et-lambda-architecture-quelles-differences/",
+        "title": "Batch Processing, Stream Processing et Lambda Architecture, quelles différences ?",
+        "description": "Trois architectures dominent le paysage : Batch Processing, Stream Processing et Lambda Architecture. Chacune offre des avantages distincts et répond à des besoins spécifiques en matière de traitement des données..."
+      },
+      {
+        "url": "https://www.awinstall.com/apache-kafka-fonctionnement-de-cet-outil-de-traitement-de-flux-de-donnees/",
+        "title": "Apache Kafka : fonctionnement de cet outil de traitement de flux de données",
+        "description": "Apache Kafka est une plateforme de streaming d’événements distribuée open-source développée par la Apache Software Foundation..."
+      },
+      {
+        "url": "https://www.awinstall.com/web-scraping-avec-python/",
+        "title": "Web Scraping avec Python",
+        "description": "Il existe de nombreuses bibliothèques en Python pour le web scraping, mais les plus utilisées sont Beautiful Soup et Requests..."
+      }
+    ]
+  },
+  "talkSection": {
+    "title": "TALKS",
+    "subtitle": "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅",
+    "talks": [
+      {
+        "title": "Build Actions For Google Assistant",
+        "subtitle": "Codelab at GDG DevFest Karachi 2019"
+      }
+    ]
+  },
+  "podcastSection": {
+    "title": "Podcast 🎙️",
+    "subtitle": "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY"
+  },
+  "contactInfo": {
+    "title": "Contact Me ☎️",
+    "subtitle": "Discuss a project or just want to say hi? My Inbox is open for all."
+  },
+  "skillProgress":{
+    "heading":"Proficiency"
+  },
+  "header":{
+    "skills":"Skills",
+    "openSource":"Open Source",
+    "workExperiences":"Work Experiences",
+    "achievements":"Achievements",
+    "blogs":"Blogs",
+    "contactMe":"Contact Me",
+    "talks":"Talks"
+  }
+}
+
