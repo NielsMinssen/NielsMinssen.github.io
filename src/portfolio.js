@@ -27,6 +27,8 @@ const greeting = {
   ),
   resumeLink:
     require("../src/assets/images/Niels_Minssen.pdf"), // Set to empty to hide the button
+  cvLink:
+    require("../src/assets/images/french_cv.pdf"),
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 

@@ -2,7 +2,10 @@
   "greeting": {
     "username": "Niels Minssen",
     "title": "Hi, I am Niels",
-    "subTitle": "Computer science engineer specialized in information system and decision support tools. Curious and eager to learn, I constantly gain new skills to stay up to date."
+    "subTitle": "Computer science engineer specialized in information system and decision support tools. Curious and eager to learn, I constantly gain new skills to stay up to date.",
+    "seeResume" : "English resume",
+    "seeCV"     : "French resume",
+    "contactMe" : "Contact me"
   },
   "skillsSection": {
     "title": "What I do",
@@ -33,7 +36,7 @@
         "date": "September 2022 - September 2023",
         "descBullets": [
           "Creating machine learning models to detect client propensity to buy a product. (Logistic regression Bagging and xgboost)",
-          "Creation of a R-shiny Application to display dynamically clients characteristics"
+          "Creation of an R-shiny Application to display dynamically clients characteristics"
         ]
       },
       {

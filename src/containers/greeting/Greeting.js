@@ -3,6 +3,7 @@ import { Fade } from "react-reveal";
 import emoji from "react-easy-emoji";
 import "./Greeting.scss";
 import landingPerson from "../../assets/lottie/landingPerson";
+import graph from "../../assets/lottie/graph"
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
@@ -42,12 +43,19 @@ export default function Greeting() {
               </p>
               <SocialMedia />
               <div className="button-greeting-div">
-                <Button text={"Contact me"} href="#contact" /> 
+                <Button text={t("greeting.contactMe")} href="#contact" /> 
                 {greeting.resumeLink && (
                   <Button
-                    text={"See my resume"} 
+                    text={t("greeting.seeResume")} 
                     newTab={true}
                     href={greeting.resumeLink}
+                  />
+                )}
+                {greeting.cvLink && (
+                  <Button
+                    text={t("greeting.seeCV")} 
+                    newTab={true}
+                    href={greeting.cvLink}
                   />
                 )}
               </div>
@@ -55,7 +63,7 @@ export default function Greeting() {
           </div>
           <div className="greeting-image-div">
             {illustration.animated ? (
-              <DisplayLottie animationData={landingPerson} />
+              <DisplayLottie animationData={graph} />
             ) : (
               <img
                 alt="man sitting on table"
