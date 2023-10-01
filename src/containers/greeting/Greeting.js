@@ -13,7 +13,14 @@ import { useTranslation } from 'react-i18next'; // Import the useTranslation hoo
 
 export default function Greeting() {
   const { isDark } = useContext(StyleContext);
-  const { t } = useTranslation(); // Use the useTranslation hook
+  const { t, i18n  } = useTranslation(); // Use the useTranslation hook
+
+  let linkToCV;
+  if (i18n.language === 'en') {
+    linkToCV = greeting.resumeLink;
+  } else if (i18n.language === 'fr') {
+    linkToCV = greeting.cvLink;
+  }
 
   if (!greeting.displayGreeting) {
     return null;
@@ -48,14 +55,7 @@ export default function Greeting() {
                   <Button
                     text={t("greeting.seeResume")} 
                     newTab={true}
-                    href={greeting.resumeLink}
-                  />
-                )}
-                {greeting.cvLink && (
-                  <Button
-                    text={t("greeting.seeCV")} 
-                    newTab={true}
-                    href={greeting.cvLink}
+                    href={linkToCV}
                   />
                 )}
               </div>
