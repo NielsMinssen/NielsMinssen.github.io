@@ -2,8 +2,7 @@ import React, { useContext } from "react";
 import { Fade } from "react-reveal";
 import emoji from "react-easy-emoji";
 import "./Greeting.scss";
-import landingPerson from "../../assets/lottie/landingPerson";
-import DatabaseAnimation from "../../assets/lottie/database_mauve.json"
+import DatabaseAnimation from "../../assets/lottie/data_base_no_background_mauve.json"
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
