@@ -64,43 +64,53 @@ https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
       skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      fontAwesomeClassname: "fas fa-database",
+      color: "#000000"
     },
     {
       skillName: "python",
-      fontAwesomeClassname: "fab fa-python" 
+      fontAwesomeClassname: "fab fa-python" ,
+      color:"#f9f06b"
     },
     {
       skillName: "TensorFlow",
-      fontAwesomeClassname: "fab fa-docker"
+      fontAwesomeClassname: "fab fa-docker",
+      color:"#FF8400"
     },
     {
       skillName: "Apache Hadoop",
-      fontAwesomeClassname: "fas fa-republican"
+      fontAwesomeClassname: "fas fa-republican",
+      color:"#63C6F7"
     },
     {
       skillName: "R",
-      fontAwesomeClassname: "fab fa-r-project"
+      fontAwesomeClassname: "fab fa-r-project",
+      color:"#1C68BB"
     },
     {
       skillName: "Tableau",
-      fontAwesomeClassname: "fas fa-table"
+      fontAwesomeClassname: "fas fa-table",
+      color:"#f9f06b"
     },
     {
       skillName: "SAS",
-      fontAwesomeClassname: "fab fa-stripe-s"
+      fontAwesomeClassname: "fab fa-stripe-s",
+      color:"#0083CD"
     },
     {
       skillName: "Apache Spark",
-      fontAwesomeClassname: "fas fa-star"
+      fontAwesomeClassname: "fas fa-star",
+      color:"#F3BDA6"
     },
     {
       skillName: "Apache Kafka",
-      fontAwesomeClassname: "fas fa-network-wired"
+      fontAwesomeClassname: "fas fa-network-wired",
+      color:"#000000"
     },
     {
       skillName: "Power BI",
-      fontAwesomeClassname: "fas fa-chart-pie"
+      fontAwesomeClassname: "fas fa-chart-pie",
+      color:"#f9f06b"
     }
   ],
   display: true // Set false to hide this section, defaults to true
