@@ -49,6 +49,11 @@ function Header() {
               <a href="#skills">{t("header.skills")}</a>
             </li>
           )}
+          {(
+            <li>
+              <a href="#services">{t("header.skills")}</a>
+            </li>
+          )}
           {viewExperience && (
             <li>
               <a href="#experience">{t("header.workExperiences")}</a>

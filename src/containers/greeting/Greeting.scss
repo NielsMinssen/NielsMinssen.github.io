@@ -38,6 +38,9 @@
   font-size: 70px;
   line-height: 1.1;
   color: $textColor !important;
+  text-align:left;
+  display: inline-block;
+  white-space: nowrap;
 }
 
 .greeting-text-p {

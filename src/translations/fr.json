@@ -1,7 +1,7 @@
 {
   "greeting": {
     "username": "Niels Minssen",
-    "title": "Salut, moi c'est Niels",
+    "title": "Data Scientist/Engineer",
     "subTitle": "Ingénieur en informatique spécialisé en systèmes d'information et outils d'aide à la décision. Curieux et avide de connaissances, j'acquiers constamment de nouvelles compétences pour rester à jour.",
     "seeResume" : "Voir mon CV",
     "contactMe" : "Contactez Moi"
@@ -14,6 +14,9 @@
       "🤖 Développer des modèles d'apprentissage automatique pour améliorer la prise de décision",
       "💾 Construire et alimenter des bases de données tout en gérant des flux (pipelines) de données"
     ]
+  },
+  "services":{
+    "title" : "Services"
   },
   "educationInfo": {
     "display": true,

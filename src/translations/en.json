@@ -1,7 +1,7 @@
 {
   "greeting": {
     "username": "Niels Minssen",
-    "title": "Hi, I am Niels",
+    "title": "Data Scientist/Engineer",
     "subTitle": "Computer science engineer specialized in information system and decision support tools. Curious and eager to learn, I constantly gain new skills to stay up to date.",
     "seeResume" : "See my resume",
     "contactMe" : "Contact me"
@@ -14,6 +14,9 @@
       "🤖 Develop machine learning models to better the decision making thanks to accurate predictions",
       "💾 Create and fill Databases as well as managing Data pipelines"
     ]},
+    "services":{
+      "title" : "Services"
+    },
   "educationInfo": {
     "display": true,
     "schools": [

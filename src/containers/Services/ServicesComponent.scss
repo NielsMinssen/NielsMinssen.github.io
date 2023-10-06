@@ -1,0 +1,49 @@
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.service-box {
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 3px 3px 5px #aaa;
+    max-width: calc(33% - 20px);
+}
+
+.service-box:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 8px #888;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 0;
+}
+
+services-title {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.service-box {
+    /* ... Existing Properties ... */
+    background-color: #f4f4f4;  /* Adding a light gray background */
+    transition: all 0.3s ease-in-out;  /* Smoother transition for hover effects */
+}
+
+.service-box h3 {
+    color: #333;  /* Darker text color for the title */
+}
+
+.service-box p {
+    color: #555;  /* Slightly lighter text color for the description */
+}
+
+.service-box:hover {
+    background-color: #e9e9e9;  /* A slightly darker shade of gray for hover */
+}
