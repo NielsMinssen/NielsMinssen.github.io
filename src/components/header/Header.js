@@ -47,14 +47,14 @@ function Header() {
           <span className={isDark ? "navicon navicon-dark" : "navicon"}></span>
         </label>
         <ul className={isDark ? "dark-menu menu" : "menu"}>
-          {viewSkills && (
-            <li>
-              <a href="#skills">{t("header.skills")}</a>
-            </li>
-          )}
           {viewServices &&(
             <li>
               <a href="#services">{t("header.services")}</a>
+            </li>
+          )}
+          {viewSkills && (
+            <li>
+              <a href="#skills">{t("header.skills")}</a>
             </li>
           )}
           {viewExperience && (
