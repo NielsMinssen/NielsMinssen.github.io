@@ -15,6 +15,16 @@
       "💾 Construire et alimenter des bases de données tout en gérant des flux (pipelines) de données"
     ]
   },
+  "servicesSection" : {
+    "services" : [
+    { "title": "Analyse et Visualisation de Données", "description": "Analyser les données pour extraire des informations, fournir des rapports visuels personnalisés ou des tableaux de bord interactifs adaptés aux besoins." },
+    { "title": "Développement de Modèles d'Apprentissage Automatique", "description": "Concevoir et déployer des modèles adaptés à des défis commerciaux spécifiques tels que l'analyse prédictive ou les systèmes de recommandation." },
+    { "title": "Conception et Gestion de Bases de Données", "description": "Concevoir, mettre en place et gérer des bases de données optimisées garantissant l'intégrité, la sécurité et la récupération efficace des données." },
+    { "title": "Nettoyage et Pré-traitement des Données", "description": "Transformer les données brutes en un format utilisable, garantissant la cohérence et la qualité des données." },
+    { "title": "Intégration de Données et Processus ETL", "description": "Mettre en œuvre des solutions d'intégration de données et automatiser les pipelines de données pour un transfert de données efficace." },
+    { "title": "Développement d'Applications Web Basées sur les Données", "description": "Développer des applications web personnalisées qui offrent des informations dynamiques." }],
+    "display": "true"
+  },  
   "services":{
     "title" : "Services"
   },
