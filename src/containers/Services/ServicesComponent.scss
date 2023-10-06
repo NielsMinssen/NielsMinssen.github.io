@@ -3,8 +3,7 @@
 .services-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 20px;
+    justify-content: center;
 }
 
 h3 {
@@ -35,3 +34,4 @@ services-title {
     box-shadow: 5px 5px 8px #888;
     transform: scale(1.05);  /* Slight scale effect on hover */
 }
+
