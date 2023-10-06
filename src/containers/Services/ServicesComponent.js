@@ -28,8 +28,8 @@ export default function ServicesComponents() {
       return null;
     }
     return (
-      <div className={isDark ? "dark-mode main" : "main"} id="skills">
-        <div id="services">
+      <div className={isDark ? "dark-mode main" : "main"} id="services">
+        <div>
           <Fade right duration={1000}>
             <div className="skills-text-div">
               <h1
