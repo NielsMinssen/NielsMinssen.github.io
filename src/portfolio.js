@@ -116,6 +116,17 @@ https://fontawesome.com/icons?d=gallery */
   display: true // Set false to hide this section, defaults to true
 };
 
+const servicesSection = {
+  services : [
+  { title: "Data Analysis and Visualization", description: "Analyze data to extract insights, providing custom visual reports or interactive dashboards tailored to client needs." },
+  { title: "Machine Learning Model Development", description: "Design and deploy models tailored to specific business challenges like predictive analytics or recommendation systems." },
+  { title: "Database Design and Management", description: "Design, set up, and manage optimized databases ensuring data integrity, security, and efficient retrieval." },
+  { title: "Data Cleaning and Pre-processing", description: "Transform raw data into a usable format, ensuring data consistency and quality." },
+  { title: "Data Integration and ETL Processes", description: "Implement data integration solutions and automate data pipelines for efficient data transfer." },
+  { title: "Data-driven Web Application Development", description: "Develop custom web applications that offer dynamic, data-driven insights for users." }],
+  display: true
+};
+
 // Education Section
 
 const educationInfo = {
@@ -379,6 +390,7 @@ export {
   podcastSection,
   contactInfo,
   twitterDetails,
-  isHireable
+  isHireable,
+  servicesSection
 };
 
