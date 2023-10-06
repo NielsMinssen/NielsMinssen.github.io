@@ -3,7 +3,7 @@
 .services-container {
     display: flex;
     flex-wrap: wrap;
-    align-content: space-between;
+    align-content: space-around;
 }
 
 services-title {
@@ -19,6 +19,7 @@ services-title {
     margin: 10px;
     box-shadow: 2px 2px 4px #aaa;
     max-width: calc(30% - 20px);
+    min-width: 30%;
     transition: all 0.3s ease-in-out;
     overflow: hidden;
     z-index: 1;
