@@ -32,7 +32,7 @@ services-title {
         height: 100%;
         background-color: $buttonColor;
         transform-origin: top right;
-        transform: scaleX(0.05) scaleY(0.05);
+        transform: scaleX(0.1) scaleY(0.1);
         transition: transform 0.5s ease-in-out;
         z-index: -1;
         border-bottom-left-radius: 100%; // This creates the quarter-circle shape
@@ -45,3 +45,13 @@ services-title {
         color: white;
     }
 }
+
+@media (max-width: 768px) {
+    .services-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-around;
+        flex-direction: column;
+    }
+
+  }
