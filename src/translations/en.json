@@ -1,13 +1,13 @@
 {
   "greeting": {
     "username": "Niels Minssen",
-    "title": "Data Scientist/Engineer",
+    "title": "Freelance Data Scientist/Engineer",
     "subTitle": "Computer science engineer specialized in information system and decision support tools. Curious and eager to learn, I constantly gain new skills to stay up to date.",
     "seeResume" : "See my resume",
     "contactMe" : "Contact me"
   },
   "skillsSection": {
-    "title": "What I do",
+    "title": "Tools",
     "subTitle": "Data Scientist/Engineer with a hand on this tool palette",
     "skills": [
       "📊 Discover insights from Data",

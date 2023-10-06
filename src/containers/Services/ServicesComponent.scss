@@ -1,3 +1,5 @@
+@import "../../globalColor";
+
 .services-container {
     display: flex;
     flex-wrap: wrap;
@@ -16,6 +18,7 @@ services-title {
     margin-bottom: 20px;
 }
 
+
 .service-box {
     flex: 1;
     padding: 20px;  /* Increased padding for larger boxes */
@@ -25,16 +28,9 @@ services-title {
     transition: all 0.3s ease-in-out;  /* Smoother transition for hover effects */
 }
 
-.service-box h3 {
-    color: #333;  /* Darker text color for the title */
-}
-
-.service-box p {
-    color: #555;  /* Slightly lighter text color for the description */
-}
-
 .service-box:hover {
-    background-color: #f3e6f8;  /* Light purple background on hover */
+    background-color: $buttonColor;  /* Purple background on hover */
+    color: white;  /* Text color becomes white on hover */
     border-color: #65348a;  /* Darker purple border on hover */
     box-shadow: 5px 5px 8px #888;
     transform: scale(1.05);  /* Slight scale effect on hover */
